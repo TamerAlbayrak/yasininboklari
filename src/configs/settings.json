@@ -1,0 +1,7 @@
+{
+  "mongoURL": "mongodb+srv://taskmanager:uELQ0IxV1yeykRSf@gorevyoneticisi.3pa0u.mongodb.net/gorevyoneticisi?retryWrites=true&w=majority",
+  "clientID": "785803944374829066",
+  "token": "Nzg1ODAzOTQ0Mzc0ODI5MDY2.X89K8w.we7iMt1oDMJZJ7N4YXI9pdZFNrI",
+  "secret": "Sax09RSPGey1mURGd-MGBOjPZo-1aXgW",
+  "callbackURL": "https://gorevyoneticisi.cf/callback"
+}

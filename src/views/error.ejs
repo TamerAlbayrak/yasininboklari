@@ -1,0 +1,58 @@
+<html>
+     <head>
+      <meta charset="utf-8">
+      <title>Görev Yöneticisi Hata | <%= statuscode %> </title>
+      <link rel="stylesheet" href="./hata.css">
+   </head>
+  <body>
+    
+
+  <div id="error-page">
+         <div class="content">
+           <center>
+            <h2 class="header" style="margin-top: 100px; min-height: 25vh; min-width: 65vh" data-text= "<%= statuscode %>">
+             
+            </h2>
+            <h4 data-text="{{message}}">
+               <%= message %>
+            </h4>
+            <p>
+             
+            </p>
+             
+
+            <div class="btns">
+               <a class="btn btn-primary" onclick="window.history.back()">Geri Dön</a>
+               <a href="https://discord.gg/x4uSgMs">Sorun Bildir</a>
+              <a href="/">Anasayfaya Dön</a>
+            </div>
+         </div>
+      </div>
+
+</body>
+      </section>
+
+
+
+
+
+        <script>
+          document.getElementById("mode-btn").addEventListener("click", () => {
+            document.body.classList.toggle("light");
+            localStorage.setItem("mode", document.body.classList);
+          });
+          if (localStorage.getItem("mode") != "") {
+            document.body.classList.add(localStorage.getItem("mode"));
+            document.getElementById("mode-btn").checked = true;
+          }
+        </script>
+
+     
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/index.js"></script>
+ 
+</html>
